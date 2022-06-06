@@ -9,7 +9,7 @@ public class AddressBook
 {
     static List<ContactPerson> contactList = new ArrayList<>();
     static Scanner sc = new Scanner(System.in);
-    // method for adding contacts
+    // method for adding contacts 
     public static void addContact() {
         System.out.println(" Enter your first name : ");
         String firstName = sc.nextLine();
