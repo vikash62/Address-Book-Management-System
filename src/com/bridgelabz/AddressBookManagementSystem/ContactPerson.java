@@ -18,7 +18,7 @@ public class ContactPerson
     }
     public String getFirstName()
     {
-        return firstName; 
+        return firstName;
     }
     public void setFirstName(String firstName)
     {
