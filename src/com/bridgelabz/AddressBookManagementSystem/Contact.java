@@ -34,4 +34,9 @@ public class Contact {
         System.out.println("Enter zip : ");
         this.zip = scan.nextLine();
     }
+    @Override
+    public String toString() {
+        return "Contact [firstName=" + firstName + ", lastName=" + lastName + ", address=" + address + ", city=" + city
+                + ", state=" + state + ", phoneNumber=" + phoneNumber + ", email=" + email + ", zip=" + zip + "]";
+    }
 }
